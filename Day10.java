@@ -14,7 +14,7 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+      int n = Integer.parseInt(bufferedReader.readLine().trim());
         int r = 0, count = 0, max = 0;
         while (n != 0) {
             r = n % 2;

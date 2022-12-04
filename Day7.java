@@ -6,7 +6,7 @@ public class Solution {
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
-                .map(Integer::parseInt)
+             .map(Integer::parseInt)
                 .collect(toList());
 
         for (int i = n - 1; i >= 0; i--) {

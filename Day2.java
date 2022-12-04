@@ -10,7 +10,7 @@ class Result {
      */
 
     public static void solve(double meal_cost, int tip_percent, int tax_percent) {
-        // Write your code here
+    // Write your code here
         int sum = (int) Math.round(meal_cost + meal_cost * tip_percent * 0.01 + meal_cost * tax_percent * 0.01);
         System.out.println(sum);
 

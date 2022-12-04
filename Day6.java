@@ -14,7 +14,6 @@ public class Solution {
             for (int i = 0; i < str.length(); i += 2) {
                 System.out.print(str.charAt(i));
             }
-
             System.out.print(" ");
 
             for (int i = 1; i < str.length(); i += 2) {
