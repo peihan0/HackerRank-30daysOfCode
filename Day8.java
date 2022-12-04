@@ -7,7 +7,7 @@ class Solution {
     public static void main(String[] argh) {
         HashMap<String, Integer> pBook = new HashMap<>();
         Scanner in = new Scanner(System.in);
-     int n = in.nextInt();
+        int n = in.nextInt();
         for (int i = 0; i < n; i++) {
             String name = in.next();
             int phone = in.nextInt();

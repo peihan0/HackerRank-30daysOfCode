@@ -8,7 +8,7 @@ public class Person {
             this.age = initialAge;
         else {
             System.out.println("Age is not valid, setting age to 0.");
-           this.age = 0;
+            this.age = 0;
         }
     }
 
